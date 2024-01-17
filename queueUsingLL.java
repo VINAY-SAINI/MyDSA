@@ -79,9 +79,7 @@ public class Main {
         System.out.println("Queue after enqueueing elements:");
         queue.display();
 
-        System.out.println("Peek: " + queue.peek());
-        System.out.println("Dequeue: " + queue.dequeue());
-        System.out.println("Queue after dequeuing element:");
+    
         queue.display();
     }
 }
